@@ -5,51 +5,40 @@ button-tex-two: Dashboard
 <style type="text/css">
 
 </style>
-{{>header}}
+
 <wrapper class="body-wrapper">
   <container>
-
+    {{>header}}
     <spacer size="16"></spacer>
 
     <row>
       <columns>
-        <h6>Hello, Andrew {{test}}</h6>
-        <p>Your team has been assigned a question for william Paxton's participation in the June End Event on May 15, 2017. The Earliest <em>due date</em> for your questions is <b>5/15/2017 4:42 PM</b></p>
-
+        <h1 class="text-center"><b>You have 2 new update(s) to review</b></h1>
+        <p class="text-center">The earliest due date for your question(s) are:</p>
+        <h2 class="text-center">December 15, 2018, 12:00AM</h2>
+      </columns>
+    </row>
+    <row>
+      <columns  large="12" small="12">
+       <center>
+         <!--[if mso]>
+         {{#mso}}REVIEW ALL{{/mso}}
+         <![endif]-->
+         <!--[if !mso]><!-- -->
+         <button href="http://www.google.com/" class="radius primary">REVIEW ALL</button>
+         <!--<![endif]-->
+       </center>
+      </columns>
+    </row>
+    <row>
+      <columns>
         <spacer size="20"></spacer>
         {{>comments}}
         <spacer size="20"></spacer>
-
       </columns>
     </row>
     {{>question-detail}}
-    <row>
-      <columns large="4" small="12">
-        <!--[if mso]>
-        {{#mso}}View Question{{/mso}}
-        <![endif]-->
-        <!--[if !mso]><!-- -->
-        <button href="#" class="expanded success">View Question</button>
-        <!--<![endif]-->
-      </columns>
-      <columns large="4" small="12">
-        <!--[if mso]>
-        {{#mso}}Dashboard{{/mso}}
-        <![endif]-->
-        <!--[if !mso]><!-- -->
-        <button href="#" class="expanded secondary">Dashboard</button>
-        <!--<![endif]-->
-      </columns>
-      <columns  large="4" small="12">
-        <!--[if mso]>
-        {{#mso}}Notifications{{/mso}}
-        <![endif]-->
-        <!--[if !mso]><!-- -->
-        <button href="#" class="expanded secondary">Notifications</button>
-        <!--<![endif]-->
-      </columns>
-    </row>
-    <spacer size="30"></spacer>
+    {{>help-factoid}}
     {{>footer}}
   </container>
 

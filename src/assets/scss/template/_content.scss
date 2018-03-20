@@ -1,3 +1,16 @@
 .body-wrapper{
-  background:$white;
+  background:$body-background;
+}
+.question-detail-hr{
+  border-top:1px solid $quanda-hr-color;
+}
+
+.fact{
+  padding:10px 20px 20px 20px;
+  &-lead{
+    color:$quanda-blue-accent;
+  }
+  &-background{
+    background:#e0e0e0;
+  }
 }

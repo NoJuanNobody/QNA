@@ -1,12 +1,12 @@
 .header{
-  background-color: $secondary-color;
+  background-color: $body-background;
+
   img{
     color:$white;
     font-size: $h4-font-size;
-    margin-left:$global-gutter;
   }
   .wrapper-inner{
-    padding:13px;
+    padding: 10px 10px;
   }
   .columns{
     padding-bottom: 0px;

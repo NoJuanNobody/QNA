@@ -1,0 +1,10 @@
+@import 'settings';
+@import 'foundation-emails';
+@import 'template/header';
+@import 'template/content';
+@import 'template/comments';
+@import 'template/footer';
+
+html,body{
+  background: $white;
+}

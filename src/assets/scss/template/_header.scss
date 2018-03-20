@@ -1,0 +1,17 @@
+.header{
+  background-color: $secondary-color;
+  img{
+    color:$white;
+    font-size: $h4-font-size;
+    margin-left:$global-gutter;
+  }
+  .wrapper-inner{
+    padding:13px;
+  }
+  .columns{
+    padding-bottom: 0px;
+  }
+  .container{
+    background: transparent;
+  }
+}

@@ -1,0 +1,56 @@
+---
+button-text-one: View Question
+button-tex-two: Dashboard
+---
+<style type="text/css">
+
+</style>
+{{>header}}
+<wrapper class="body-wrapper">
+  <container>
+
+    <spacer size="16"></spacer>
+
+    <row>
+      <columns>
+        <h6>Hello, Andrew {{test}}</h6>
+        <p>Your team has been assigned a question for william Paxton's participation in the June End Event on May 15, 2017. The Earliest <em>due date</em> for your questions is <b>5/15/2017 4:42 PM</b></p>
+
+        <spacer size="20"></spacer>
+        {{>comments}}
+        <spacer size="20"></spacer>
+
+      </columns>
+    </row>
+    {{>question-detail}}
+    <row>
+      <columns large="4" small="12">
+        <!--[if mso]>
+        {{#mso}}button/{{/mso}}
+        <![endif]-->
+        <![if !mso]>
+        <button href="#" class="expanded success">View Question</button>
+        <![endif]-->
+      </columns>
+      <columns large="4" small="12">
+        <!--[if mso]>
+        {{#mso}}Dashboard/{{/mso}}
+        <![endif]-->
+        <![if !mso]>
+        <button href="#" class="expanded secondary">Dashboard</button>
+        <![endif]-->
+      </columns>
+      <columns  large="4" small="12">
+        <!--[if mso]>
+        {{#mso}}Notifications/{{/mso}}
+        <![endif]-->
+        <![if !mso]>
+        <button href="#" class="expanded secondary">Notifications</button>
+        <![endif]-->
+      </columns>
+    </row>
+    <spacer size="30"></spacer>
+    {{>footer}}
+  </container>
+
+</wrapper>

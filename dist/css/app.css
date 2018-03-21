@@ -456,7 +456,8 @@ table.menu.vertical th.menu-item {
   background: #EDEDED; }
 
 .fact-lead {
-  color: #668cb3; }
+  color: #668cb3;
+  font-size: 20px; }
 
 .fact-background {
   background: #e0e0e0; }

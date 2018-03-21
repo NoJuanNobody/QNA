@@ -4,8 +4,7 @@
     <list default="true" id="626a2f01-bb19-46a5-8a7a-28f08f21997a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/ask-question.html" afterPath="$PROJECT_DIR$/dist/ask-question.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/deck-created.html" afterPath="$PROJECT_DIR$/dist/deck-created.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/partials/footer.html" afterPath="$PROJECT_DIR$/src/partials/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/partials/help-factoid.html" afterPath="$PROJECT_DIR$/src/partials/help-factoid.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -84,8 +83,8 @@
           <file leaf-file-name="help-factoid.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/partials/help-factoid.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+                <state relative-caret-position="120">
+                  <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -194,8 +193,8 @@
         <option value="$PROJECT_DIR$/src/assets/scss/template/_comments.scss" />
         <option value="$PROJECT_DIR$/src/assets/scss/template/_content.scss" />
         <option value="$PROJECT_DIR$/src/pages/ask-question.html" />
-        <option value="$PROJECT_DIR$/src/partials/help-factoid.html" />
         <option value="$PROJECT_DIR$/src/partials/footer.html" />
+        <option value="$PROJECT_DIR$/src/partials/help-factoid.html" />
       </list>
     </option>
   </component>
@@ -356,12 +355,12 @@
       <updated>1521296487917</updated>
       <workItem from="1521296496833" duration="18303000" />
       <workItem from="1521468499825" duration="19235000" />
-      <workItem from="1521644827781" duration="6139000" />
+      <workItem from="1521644827781" duration="6368000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43677000" />
+    <option name="totallyTimeSpent" value="43906000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="23" width="1750" height="1369" extended-state="0" />
@@ -709,8 +708,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/partials/help-factoid.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        <state relative-caret-position="120">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>

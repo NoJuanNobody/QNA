@@ -181,7 +181,12 @@ th.expander {
 
 h1.text-center,
 h2.text-center,
-p.text-center {
+span.text-center {
+  text-align: center; }
+
+span.text-center {
+  display: block;
+  width: 100%;
   text-align: center; }
 
 img.float-center {
@@ -450,9 +455,6 @@ table.menu.vertical th.menu-item {
 .body-wrapper {
   background: #EDEDED; }
 
-.question-detail-hr {
-  border-top: 1px solid #e0e0e0; }
-
 .fact-lead {
   color: #668cb3; }
 
@@ -471,11 +473,3 @@ table.menu.vertical th.menu-item {
 
 html, body {
   background: #EDEDED; }
-
-table {
-  border-collapse: collapse;
-  mso-table-lspace: 0pt;
-  mso-table-rspace: 0pt; }
-
-table {
-  border-spacing: 0; }

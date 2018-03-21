@@ -459,11 +459,6 @@ table.menu.vertical th.menu-item {
 .fact-background {
   background: #e0e0e0; }
 
-table {
-  border-collapse: collapse;
-  mso-table-lspace: 0pt;
-  mso-table-rspace: 0pt; }
-
 .comments {
   color: #212121;
   padding: 0px !important; }
@@ -476,3 +471,11 @@ table {
 
 html, body {
   background: #EDEDED; }
+
+table {
+  border-collapse: collapse;
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt; }
+
+table {
+  border-spacing: 0; }

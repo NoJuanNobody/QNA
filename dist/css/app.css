@@ -468,7 +468,8 @@ table.menu.vertical th.menu-item {
   padding: 0px !important; }
 
 .footer-warning {
-  font-size: 14px; }
+  font-size: 14px;
+  color: #757575; }
 
 .footer {
   background: #EDEDED; }

@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="626a2f01-bb19-46a5-8a7a-28f08f21997a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/ask-question.html" afterPath="$PROJECT_DIR$/dist/ask-question.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/ask-question.html" afterPath="$PROJECT_DIR$/src/pages/ask-question.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/partials/comments.html" afterPath="$PROJECT_DIR$/src/partials/comments.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -52,8 +50,8 @@
       <file leaf-file-name="ask-question.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/ask-question.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -321,12 +319,12 @@
       <updated>1521296487917</updated>
       <workItem from="1521296496833" duration="18303000" />
       <workItem from="1521468499825" duration="19235000" />
-      <workItem from="1521644827781" duration="1414000" />
+      <workItem from="1521644827781" duration="1560000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38952000" />
+    <option name="totallyTimeSpent" value="39098000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="23" width="1430" height="1369" extended-state="0" />
@@ -400,8 +398,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1521653585645" expanded="true" signature="2673:2718" ph="..." />
-            <marker date="1521653585645" expanded="true" signature="2805:2882" ph="..." />
+            <marker date="1521653598935" expanded="true" signature="2673:2718" ph="..." />
+            <marker date="1521653598935" expanded="true" signature="2805:2882" ph="..." />
           </folding>
         </state>
       </provider>
@@ -575,8 +573,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1521653585645" expanded="true" signature="2673:2718" ph="..." />
-            <marker date="1521653585645" expanded="true" signature="2805:2882" ph="..." />
+            <marker date="1521653598935" expanded="true" signature="2673:2718" ph="..." />
+            <marker date="1521653598935" expanded="true" signature="2805:2882" ph="..." />
           </folding>
         </state>
       </provider>
@@ -671,8 +669,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/ask-question.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -453,12 +453,11 @@ table.menu.vertical th.menu-item {
 .question-detail-hr {
   border-top: 1px solid #e0e0e0; }
 
-.fact {
-  padding: 10px 20px 20px 20px; }
-  .fact-lead {
-    color: #668cb3; }
-  .fact-background {
-    background: #e0e0e0; }
+.fact-lead {
+  color: #668cb3; }
+
+.fact-background {
+  background: #e0e0e0; }
 
 table {
   border-collapse: collapse;

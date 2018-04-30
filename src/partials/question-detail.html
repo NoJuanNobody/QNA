@@ -3,16 +3,17 @@
     <columns large="12" >
         <hr>
         <spacer size="10"></spacer>
-        <p ><b>Q: </b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto consequatur cupiditate delectus eos, facilis hic illo impedit ipsa ipsum maiores quas recusandae, reprehenderit sed voluptate? Dicta illo nulla obcaecati. piditate delectus eos, facilis hic illecusandae, repr
+        <p ><b>Q: </b>{{ question }}
             <a href="">View More</a></p>
-        <p ><b>A: </b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto consequatur cupiditate delectus eos, facilis hic illo impedit ipsa ipsum maiores quas recusandae, reprehenderit sed voluptate? Dicta illo nulla obcaecati.
-            <a href="">View More</a></p>
+        {{#unlesspage 'question-draft'}}
+        {{>answer-detail}}
+        {{/unlesspage}}
         <row>
             <columns large="6" small="12">
-                <p><b>Priority: </b> <br>All Other</p>
+                <p><b>Priority: </b> <br>{{priority}}</p>
             </columns>
             <columns large="6" small="12">
-                <p><b>Due: </b> <br>December 15, 2018 12:00 AM </p>
+                <p><b>Due: </b> <br>{{ due-date }} </p>
             </columns>
         </row>
     </columns>

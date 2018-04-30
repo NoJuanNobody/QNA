@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="626a2f01-bb19-46a5-8a7a-28f08f21997a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/index.html" afterPath="$PROJECT_DIR$/src/pages/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/app.css" afterPath="$PROJECT_DIR$/dist/css/app.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,8 +40,8 @@
       <file leaf-file-name="reviewer-accept.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/reviewer-accept.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            <state relative-caret-position="180">
+              <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -101,8 +100,8 @@
       <file leaf-file-name="update-answer.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/update-answer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="8" column="224" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="224" />
+            <state relative-caret-position="120">
+              <caret line="8" column="224" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="224" />
               <folding />
             </state>
           </provider>
@@ -330,16 +329,15 @@
       <workItem from="1521296496833" duration="18303000" />
       <workItem from="1521468499825" duration="19235000" />
       <workItem from="1521644827781" duration="7400000" />
-      <workItem from="1525098914534" duration="11593000" />
+      <workItem from="1525098914534" duration="12229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56531000" />
+    <option name="totallyTimeSpent" value="57167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="23" width="1187" height="1369" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25385934" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -626,8 +624,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/update-answer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="224" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="224" />
+        <state relative-caret-position="120">
+          <caret line="8" column="224" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="224" />
           <folding />
         </state>
       </provider>
@@ -650,8 +648,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/reviewer-accept.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        <state relative-caret-position="180">
+          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding />
         </state>
       </provider>

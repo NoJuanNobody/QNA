@@ -4,6 +4,15 @@
 .question-detail-hr{
   border-top:1px solid $quanda-hr-color;
 }
+.warning{
+  color: $rejected;
+}
+.pending{
+  color: $pending-review;
+}
+.accepted{
+  color: $accepted;
+}
 
 .fact{
   //padding:10px 20px 20px 20px;

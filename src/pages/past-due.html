@@ -1,0 +1,57 @@
+---
+button-text: View Question
+creator: Abbey Brown
+Assignees: Ronald Warner, Reconciliations Group
+Deck-Name: Earnings Event Deck
+due-date: June 12, 2018
+factoid: Click the bell icon in the navigation bar to view all of your notifications.
+question: Based on the projections provided in the previous earnings call, can we ensure that Q2 cash in hand will be sustainable for the Q3 payments and operations sector? how can we be sure based on previous data?
+answer: I feel the best way to look at this senario, is that the cash in hand at the end of Q2 should in theory be able to support Q3 payments and operations unless an anomaly were to cause strain to the current Q2 cash flow
+priority: Standard
+comments: I hope this is the correct approach, if you feel we should adjust, feel free to decline and i will reconsider.
+---
+<style type="text/css">
+
+</style>
+
+<wrapper class="">
+  <container>
+    {{>header}}
+    <spacer size="16"></spacer>
+
+    <row>
+      <columns>
+        <h2 class="text-center"><br>The question assigned to {{ Assignees }} has not been accepted</b></h2>
+        <center>
+          <span class="text-center warning"> This question has passed this deadline:</span>
+        </center>
+        <h2 class="text-center warning">{{ due-date }}</h2>
+      </columns>
+    </row>
+    <row>
+      <columns  large="12" small="12">
+       <center>
+         <!--[if mso]>
+         {{#mso}}{{ button-text }}{{/mso}}
+         <![endif]-->
+         <!--[if !mso]><!-- -->
+         <button href="http://www.google.com/" class="radius primary">{{ button-text }}</button>
+         <!--<![endif]-->
+       </center>
+      </columns>
+    </row>
+    <row>
+      <columns>
+        {{>comments}}
+      </columns>
+    </row>
+    {{>question-detail}}
+
+    {{>help-factoid}}
+
+  </container>
+  <container>
+
+    {{>footer}}
+  </container>
+</wrapper>

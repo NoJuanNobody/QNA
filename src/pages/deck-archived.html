@@ -1,0 +1,47 @@
+---
+button-text: Admin Panel
+D-Watcher-full-name: Thomas Kingsley
+Deck-Name: Earnings Event Deck
+due-date: June 12, 2018
+factoid: You have complete control over your notifications in the notification section of the admin panel
+---
+<style type="text/css">
+
+</style>
+
+<wrapper class="">
+  <container>
+    {{>header}}
+    <spacer size="16"></spacer>
+
+    <row>
+      <columns>
+        <h2 class="text-center"><b>{{D-Watcher-full-name}} has archived the following deck:</b></h2>
+        <center>
+          <span class="text-center">{{Deck-Name}}</span>
+        </center>
+      </columns>
+    </row>
+    <row>
+      <columns  large="12" small="12">
+       <center>
+         <!--[if mso]>
+         {{#mso}}{{ button-text }}{{/mso}}
+         <![endif]-->
+         <!--[if !mso]><!-- -->
+         <button href="http://www.google.com/" class="radius primary">{{ button-text }}</button>
+         <!--<![endif]-->
+       </center>
+      </columns>
+    </row>
+    <row>
+
+
+    {{>help-factoid}}
+
+  </container>
+  <container>
+
+    {{>footer}}
+  </container>
+</wrapper>

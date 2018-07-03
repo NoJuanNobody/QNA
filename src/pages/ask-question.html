@@ -1,12 +1,13 @@
 ---
-button-text: View Question
+button-text: Go to dashboard
+button-link: dashboard link
 creator: Abbey Brown
 Assignees: Ronald Warner, Reconciliations Group
 Deck-Name: Earnings Event Deck
 due-date: June 12, 2018
 factoid: You can suggest edits to questions if they are factually inaccurate
-question: Based on the projetions provided in the previous earnings call, can we enture that Q2 cash in hand will be sustainable for the Q3 payments and operations sector? how can we be sure based on previous data?
-answer: an answer still needs to be provided
+question: [Question]
+answer: [Answer]
 priority: Standard
 ---
 <style type="text/css">
@@ -20,33 +21,39 @@ priority: Standard
 
     <row>
       <columns>
-        <h2 class="text-center"><br><i>{{ creator }}</i> has asked </br> <i>{{Assignees}}</i></br> a question with the following deadline within the </br><i>{{Deck-Name}}</i></b></h2>
+        <h2 class="text-center">[Event name], [Deck name] deck</h2>
+
+        <h3 class="text-center">You have been assigned [# of questions] new question(s)</h3>
         <center>
-          <span class="text-center">The due date for your question will be:</span>
+          <span class="text-center">The due date for your question(s) is in [# of days] days on </span>
         </center>
-        <h2 class="text-center">{{ due-date }}</h2>
+        <h2 class="text-center">[Earliest question due date] at [Due time]</h2>
       </columns>
     </row>
     <row>
+      <columns>
+        {{>comments}}
+      </columns>
+    </row>
+
+    <row>
       <columns  large="12" small="12">
-       <center>
-         <!--[if mso]>
-         {{#mso}}{{ button-text }}{{/mso}}
-         <![endif]-->
-         <!--[if !mso]><!-- -->
-         <button href="http://www.google.com/" class="radius primary">{{ button-text }}</button>
-         <!--<![endif]-->
-       </center>
+        <center>
+          <!--[if mso]>
+          {{#mso}}{{ button-text }}{{/mso}}
+          <![endif]-->
+          <!--[if !mso]><!-- -->
+          <button href="{{button-link}}" class="radius primary">{{ button-text }}</button>
+          <!--<![endif]-->
+        </center>
       </columns>
     </row>
 
     {{>question-detail}}
 
-    {{>help-factoid}}
 
   </container>
   <container>
-
     {{>footer}}
   </container>
 </wrapper>

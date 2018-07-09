@@ -4,8 +4,7 @@
     <columns large="12" >
         <hr>
         <spacer size="10"></spacer>
-        <p ><b>Q: </b>[Question]
-            <a href="question-link">View More</a></p>
+        <p ><b>Q: </b>[Question]</p>
         {{#unlesspage 'question-draft'}}
         {{>answer-detail}}
         {{/unlesspage}}
@@ -16,7 +15,9 @@
             <columns large="6" small="12">
                 <p><b>Due: </b> <br>[Due date] </p>
             </columns>
+
         </row>
+        <row><center> <a href="answer-link">View More</a></center></row>
     </columns>
 </row>
 <!--[End Question Detail]-->

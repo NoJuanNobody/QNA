@@ -137,7 +137,6 @@ th.expander {
   padding: 0 !important; }
 
 h2.text-center,
-p.text-center,
 span.text-center {
   text-align: center; }
 
@@ -335,22 +334,6 @@ table.menu.vertical th.menu-item {
   .header .container {
     background: transparent; }
 
-.warning {
-  color: #EF5350; }
-
-.pending {
-  color: #FFB74D; }
-
-.accepted {
-  color: #4CAF50; }
-
-.fact-lead {
-  color: #668cb3;
-  font-size: 20px; }
-
-.fact-background {
-  background: #e0e0e0; }
-
 .comments {
   color: #212121;
   padding: 0px !important; }
@@ -364,6 +347,3 @@ table.menu.vertical th.menu-item {
 
 html, body {
   background: #EDEDED; }
-
-.hot.topic {
-  color: #c62828; }

@@ -19,33 +19,16 @@ priority: Standard
     {{>header}}
     <spacer size="16"></spacer>
 
-    <row>
-      <columns>
-        <center>
-          <span class="text-center">[event_name], [deck_name] deck</span>
-        </center>
-
-        <h2 class="text-center"><b>You have been assigned [number_of_questions] new question(s)</b></h2>
-        <center>
-          <span class="text-center">The due date for your question(s) is in [number_of_days] days on </span>
-        </center>
-        <h2 class="text-center">[earliest_due_date] at [earliest_due_time]</h2>
-      </columns>
-    </row>
-    <row>
-      <columns>
-        {{>comments}}
-      </columns>
-    </row>
+   [main_message]
 
     <row>
       <columns  large="12" small="12">
         <center>
           <!--[if mso]>
-          {{#mso}}{{ button-text }}{{/mso}}
+          {{#mso}}[button_text]{{/mso}}
           <![endif]-->
           <!--[if !mso]><!-- -->
-          <button href="[base_url]" class="radius primary">{{ button-text }}</button>
+          <button href="[base_url]" class="radius primary">[button_text]</button>
           <!--<![endif]-->
         </center>
       </columns>

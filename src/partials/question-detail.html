@@ -6,11 +6,13 @@
         <spacer size="10"></spacer>
         <p ><b>Q: </b>[question]</p>
         {{#unlesspage 'question-draft'}}
+        <!--[answer_start]-->
         {{>answer-detail}}
+        <!--[answer_end]-->
         {{/unlesspage}}
         <row>
             <columns large="6" small="12">
-                <p><b>Priority: </b> <br> <span class="">Standard</span></p>
+                <p><b>Priority: </b> <br> <span style="color:[priority_color]">[priority_name]</span></p>
             </columns>
             <columns large="6" small="12">
                 <p><b>Due: </b> <br>[question_due_date] </p>

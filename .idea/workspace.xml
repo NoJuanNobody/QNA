@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="626a2f01-bb19-46a5-8a7a-28f08f21997a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/snippets.html" afterPath="$PROJECT_DIR$/dist/snippets.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/partials/question-status-snippet-approval.html" afterPath="$PROJECT_DIR$/src/partials/question-status-snippet-approval.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,8 +32,8 @@
       <file leaf-file-name="question-status-snippet-approval.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/partials/question-status-snippet-approval.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="112" lean-forward="false" selection-start-line="7" selection-start-column="112" selection-end-line="7" selection-end-column="112" />
+            <state relative-caret-position="240">
+              <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#b#0;n#h2#0;n#columns#0;n#row#0;n#!!top" expanded="true" />
               </folding>
@@ -206,8 +204,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="6" />
-    <option name="y" value="22" />
+    <option name="x" value="450" />
+    <option name="y" value="144" />
     <option name="width" value="1305" />
     <option name="height" value="1028" />
   </component>
@@ -310,15 +308,15 @@
       <workItem from="1521468499825" duration="19235000" />
       <workItem from="1521644827781" duration="7400000" />
       <workItem from="1525098914534" duration="12853000" />
-      <workItem from="1532441558681" duration="9692000" />
+      <workItem from="1532441558681" duration="9852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67483000" />
+    <option name="totallyTimeSpent" value="67643000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="22" width="1305" height="1028" extended-state="0" />
+    <frame x="450" y="144" width="1305" height="1028" extended-state="0" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23052959" sideWeight="0.49361023" order="0" side_tool="false" content_ui="combo" />
@@ -328,7 +326,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23052959" sideWeight="0.5063898" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -706,8 +704,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/partials/question-status-snippet-approval.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="112" lean-forward="false" selection-start-line="7" selection-start-column="112" selection-end-line="7" selection-end-column="112" />
+        <state relative-caret-position="240">
+          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
           <folding>
             <element signature="n#style#0;n#span#0;n#b#0;n#h2#0;n#columns#0;n#row#0;n#!!top" expanded="true" />
           </folding>
